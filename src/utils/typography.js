@@ -1,17 +1,25 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+const typography = new Typography({
+  baseFontSize: '16px',
+  baseLineHeight: 1.45,
+  headerFontFamily: ['Merriweather', 'sans-serif', 'Arial'],
+  bodyFontFamily: ['Merriweather Sans', 'serif'],
+  bodyWeight: '400',
+  headerWeight: '800',
+  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    'blockquote > :last-child': {
+      marginBottom: 0,
     },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+    a: {
+      textDecoration: 'none',
+      color: '#7FDBB6',
+    },
+    'a:hover': {
+      textDecoration: 'underline',
+    },
+  })
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
