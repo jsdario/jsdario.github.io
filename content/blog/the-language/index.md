@@ -1,7 +1,7 @@
 ---
 title: Lengua Materna
+date: "2019-03-01T22:12:03.284Z"
 ---
-
 Writing in English is not an easy decision. In Medium I have followers mainly
 for the Engineering+Product content that I write in English or my essays and articles in Spanish. That way is very difficult to mantain a consistent publication strategy (and I don't intend to), here I will have probably have less
 restrictions so I will be able to keep pieces in whatever language I am more

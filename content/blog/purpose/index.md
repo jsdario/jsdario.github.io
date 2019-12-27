@@ -1,6 +1,6 @@
 ---
 title: Purpose
-date: "2015-05-01T22:12:03.284Z"
+date: "2019-02-16T22:12:03.284Z"
 ---
 
 I decided to –finally– open a site about myself. I never really consider doing
